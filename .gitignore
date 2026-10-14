@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Пользовательские изображения и результаты
+translated/
+out/
+input/
+output/
+chapters/
+
+# Изображения (кроме примеров и скриншотов)
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.jpe
+*.jfif
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.avif
+!examples/**
+!docs/**
+
+# Модели и кэш
+.cache/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+.huggingface/
+
+# ОС и IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
